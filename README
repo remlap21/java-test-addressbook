@@ -1,0 +1,11 @@
+#######Java Test##############
+
+Your challenge is to read in the attached AddressBook.txt file, then programatically answer the following questions:
+
+1. How many males are in the address book?
+2. Who is the oldest person in the address book?
+3. How many days older is Bill than Paul?
+
+Feel free to commit as often as you'd like. We will be looking at how you apporoach the task and how you structure your code to answer the questions.
+
+Good Luck!
