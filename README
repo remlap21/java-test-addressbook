@@ -6,6 +6,14 @@ Your challenge is to read in the attached AddressBook file, then programatically
 2. Who is the oldest person in the address book?
 3. How many days older is Bill than Paul?
 
-Feel free to commit as often as you'd like. We will be looking at how you apporoach the task and how you structure your code to answer the questions.
+Some insights on what we'll be looking for (and what we will be not):
+
+- Feel free to commit as often as you'd like. The more commits the better!
+- It's better to complete 1 task than to start 3
+- feel free to use any java libraries you feel appropriate 
+- Please commit at least once within the first hour. 
+- Please feel free to spend as much time on the task as you like and make the solution and code as perfect as you like
+- Please dont push anything into master branch. If you do it will negatively affect your karma. If you follow instructions sent to you via email you are going to be fine. 
+- We will be looking at how you apporoach the task (e.g. how you break it into sub-tasks) and how you structure your code to answer the questions.
 
 Good Luck!
