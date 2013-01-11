@@ -8,6 +8,7 @@ Your challenge is to read in the attached AddressBook file, then programatically
 
 Some insights on what we'll be looking for (and what we will be not):
 
+- it is a maven project so feel free to use maven and maven dependency management
 - Feel free to commit as often as you'd like. The more commits the better!
 - It's better to complete 1 task than to start 3
 - feel free to use any java libraries you feel appropriate 
