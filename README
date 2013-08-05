@@ -5,6 +5,8 @@ Your challenge is to read in the attached AddressBook file, then programatically
 1. How many males are in the address book?
 2. Who is the oldest person in the address book?
 3. How many days older is Bill than Paul?
+To get bonus points you can create a RESTful API for the address book which would allow clients to interact with 
+the address book and answer at least one question from the above list. If you choose to go for the bonus points feel free not to do anything about question #3
 
 Some insights on what we'll be looking for (and what we will be not):
 
@@ -13,8 +15,7 @@ Some insights on what we'll be looking for (and what we will be not):
 - It's better to complete 1 task than to start 3
 - feel free to use any java libraries you feel appropriate 
 - Please commit at least once within the first hour. 
-- Please feel free to spend as much time on the task as you like and make the solution and code as perfect as you like
-- Please dont push anything into master branch. If you do it will negatively affect your karma. If you follow instructions sent to you via email you are going to be fine. 
+- Please feel free to spend as much time on the task as you like and make the solution and the code as perfect as you like
 - We will be looking at how you apporoach the task (e.g. how you break it into sub-tasks) and how you structure your code to answer the questions.
 
 Good Luck!
