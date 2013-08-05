@@ -6,7 +6,8 @@ Your challenge is to read in the attached AddressBook file, then programatically
 2. Who is the oldest person in the address book?
 3. How many days older is Bill than Paul?
 To get bonus points you can create a RESTful API for the address book which would allow clients to interact with 
-the address book and answer at least one question from the above list. If you choose to go for the bonus points feel free not to do anything about question #3
+the address book and answer at least one question from the above list. If you choose to go for the bonus points 
+feel free not to do anything about question #3
 
 Some insights on what we'll be looking for (and what we will be not):
 
