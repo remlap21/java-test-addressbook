@@ -49,7 +49,10 @@ public class AddressController {
 	/**
 	 * Returns a list of all the contacts in the address book.
 	 * Results can be filtered using valid request params
-	 * Supported: count = # number of records to return
+	 * Supported:
+	 * gender = "male/female"
+	 * order = "asc/desc"
+	 * count = # number of records to return
 	 * 
 	 * @param request
 	 * @param response
@@ -70,7 +73,10 @@ public class AddressController {
 	/**
 	 * Returns a list of all the contacts in the address book.
 	 * Results can be filtered using valid request params
-	 * Supported: gender = "male/female"
+	 * Supported: 
+	 * gender = "male/female"
+	 * order = "asc/desc"
+	 * count = # number of records to return
 	 * 
 	 * @param request
 	 * @param response

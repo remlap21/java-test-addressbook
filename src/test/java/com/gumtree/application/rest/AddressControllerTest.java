@@ -51,7 +51,7 @@ public class AddressControllerTest {
 		verify(registry).getContacts(argCap.capture());
 
 		assertEquals(ContactFilterOptions.GENDER, argCap.getValue().getFilter());
-		assertEquals("male", argCap.getValue().getValue());
+		assertEquals("MALE", argCap.getValue().getValue());
 	}
 
 	/**
@@ -61,11 +61,11 @@ public class AddressControllerTest {
 	public void countEntries_no_filter() {
 		controller.getContactCount(request, response);
 
-		ArgumentCaptor<ContactFilter> argCap = ArgumentCaptor
-				.forClass(ContactFilter.class);
+		ArgumentCaptor<ContactFilter[]> argCap = ArgumentCaptor
+				.forClass(ContactFilter[].class);
 		verify(registry).getContacts(argCap.capture());
 
-		assertNull(argCap.getValue());
+		assertEquals(0,argCap.getValue().length);
 	}
 	
 	/**
@@ -103,8 +103,10 @@ public class AddressControllerTest {
 	{
 		controller.getContacts(request, response);
 		
-		verify( registry ).getContacts( (ContactFilter[])null );
+		ArgumentCaptor<ContactFilter[]> argCap = ArgumentCaptor.forClass(ContactFilter[].class);
+		verify( registry ).getContacts( argCap.capture() );
 		
+		assertEquals(0, argCap.getValue().length);
 	}
 	
 	/**
